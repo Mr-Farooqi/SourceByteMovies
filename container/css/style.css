@@ -509,6 +509,23 @@
     align-items: center;
     padding-block: var(--section-padding);
   }
+
+@media (max-width:600px){
+  .hero {
+    background: url("../images/mobile\ bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+    width: 100%;
+    height: 100vh;
+    max-height: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-block: var(--section-padding);
+  }
+}
+
   
   .hero-content { margin-top: 60px; }
   
